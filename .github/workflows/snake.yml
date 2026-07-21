@@ -20,7 +20,7 @@ jobs:
     steps:
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
-        uses: lemtoc/snk/svg-only@4c4ce740f5fb532d20ffbcb0a8a3ef5d5b3491a3
+        uses: lemtoc/snk/svg-only@57f692f41163307b8a8a7b853290d9b280772bb3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
